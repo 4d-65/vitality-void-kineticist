@@ -24,7 +24,7 @@
     }
   ],
   "url": "https://github.com/4d-65/vitality-void-kineticist",
-  "manifest": "https://github.com/4d-65/vitality-void-kineticist/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/4d-65/vitality-void-kineticist/master/module.json",
   "download": "https://github.com/4d-65/vitality-void-kineticist/archive/refs/heads/main.zip",
   "packs": [
     {
