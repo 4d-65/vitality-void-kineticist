@@ -64,11 +64,11 @@
   "packFolders": [
   {
     "name": "Vitality and Void Kineticists",
-    "sorting": "a",
+    "sorting": "m",
     "packs": [
-      "void-kineticist",
-      "vitality-kineticist",
-	  "miscellaneous"
+	"vitality-kineticist",
+	"void-kineticist",
+	"miscellaneous"
     ]
 	}
   ]
