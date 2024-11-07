@@ -1,0 +1,75 @@
+{
+  "id": "vitality-and-void-kineticist",
+  "title": "Vitality and Void Kineticist",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Avery Moore",
+      "email": "averymoore106@gmail.com",
+      "discord": "4d65",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/4d-65/vitality-void-kineticist",
+  "manifest": "https://github.com/4d-65/vitality-void-kineticist/master/module.json",
+  "download": "https://github.com/4d-65/vitality-void-kineticist/archive/refs/heads/main.zip",
+  "packs": [
+    {
+      "name": "void-kineticist",
+      "label": "Void Kineticist",
+      "path": "packs/void-kineticist",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vitality-kineticist",
+      "label": "Vitality Kineticist",
+      "path": "packs/vitality-kineticist",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "miscellaneous",
+      "label": "Miscellaneous",
+      "path": "packs/miscellaneous",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+  {
+    "name": "Vitality and Void Kineticists",
+    "sorting": "a",
+    "packs": [
+      "void-kineticist",
+      "vitality-kineticist",
+	  "miscellaneous"
+    ]
+	}
+  ]
+}
