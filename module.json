@@ -1,7 +1,7 @@
 {
   "id": "vitality-and-void-kineticist",
   "title": "Vitality and Void Kineticist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -54,22 +54,24 @@
       "label": "Miscellaneous",
       "path": "packs/miscellaneous",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "packFolders": [
-  {
-    "name": "Vitality and Void Kineticists",
-    "sorting": "m",
-    "packs": [
-	"vitality-kineticist",
-	"void-kineticist",
-	"miscellaneous"
-    ]
-	}
+    {
+      "name": "Vitality and Void Kineticists",
+      "sorting": "m",
+      "packs": [
+        "vitality-kineticist",
+        "void-kineticist",
+        "miscellaneous"
+      ],
+      "color": null,
+      "folders": []
+    }
   ]
 }
